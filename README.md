@@ -10,3 +10,7 @@ Access Code: `ict4`
 ## Test
 
 Use our pre-trained models and the provided dataset to run tests.
+
+## Acknowledgement
+
+This code borrows heavily from [MIMO-UNet](https://github.com/chosj95/MIMO-UNet) and [Uformer](https://github.com/ZhendongWang6/Uformer).
