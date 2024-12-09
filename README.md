@@ -1,5 +1,5 @@
-# LMS-NLOS
-
+# LMS-NLOS 
+[![DOI](https://zenodo.org/badge/900532641.svg)](https://doi.org/10.5281/zenodo.14323202)
 ## Dataset
 
 Download the test dataset from the following link:
