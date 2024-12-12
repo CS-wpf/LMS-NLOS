@@ -9,6 +9,17 @@ Both of these networks are passive non-line-of-sight imaging networks.
 
 In order to avoid a significant decrease in imaging quality caused by the lightweighting of LMS-NLOS, we propose the MS-NLOS network to first improve the imaging quality of the network. 
 
+## Dependencies
+* Python 3.9
+* Pytorch (2.1.0)
+  Different versions may cause some errors.
+* scikit-image
+* opencv-python
+* Tensorboard
+* timm
+* einops
+* numpy
+
 ## Dataset
 
 * Use the dataset collected by our laboratory for testing：
@@ -41,7 +52,7 @@ Supermodel/
     └── (1250 image pairs)
         └── (same as train)
 ```
-##Train
+## Train
 The 
 To train LMS-NLOS , run the command below:
 
@@ -51,7 +62,9 @@ python main.py --model_name "LMS-NLOS" --mode "train" --data_dir "dataset/Superm
 
 or to train MS-NLOS, run the command below:
 
+```
 python main.py --model_name "MS-NLOS" --mode "train" --data_dir "dataset/Supermodel"
+```
 
 Model weights will be saved in  results/model_name/weights folder.
 
@@ -70,7 +83,9 @@ Model weights will be saved in  results/model_name/weights folder.
 
   or to test MS-NLOS, run the command below:
 
+  ```
   python main.py --model_name "MS-NLOS" --mode "test" --data_dir "dataset/Supermodel" --test_model "model.pkl"
+  ```
   
   Output images will be saved in  results/model_name/result_image folder.
 
