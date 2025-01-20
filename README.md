@@ -22,9 +22,9 @@ In order to avoid a significant decrease in imaging quality caused by the lightw
 
 ## Dataset
 
-* Use the dataset collected by our laboratory for testing：
+### 1. Use the dataset collected by our laboratory for testing：
 
-### Dataset Processing Details
+#### Dataset Processing Details
 
 At the beginning of the image collection process, a time anchor point is first set to synchronize the initial frames of all cameras; at the end of the collection, another time anchor point is set to synchronize the final frames of each camera. During the image collection process, all cameras are set to a frame rate of 25 fps, and a total of 40 video sequences are collected.
 
@@ -48,7 +48,7 @@ Download the test dataset from the following link:
 [Baidu Netdisk](https://pan.baidu.com/s/1FBUWzIGTdz736tfLNPWYfg)     
 Access Code: `ict4`
 
-* Using publicly available datasets:
+### 2. Using publicly available datasets:
 1. **Download** the Anime, Supermodel, and STL-10 datasets from the link [NLOS-Passive](https://pan.baidu.com/s/19Q48BWm1aJQhIt6BF9z-uQ).
 2. **Unzip** the files into the `dataset` folder.
 3. **Preprocess** the dataset by running the following command:
